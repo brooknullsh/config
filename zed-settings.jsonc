@@ -9,6 +9,10 @@
   "autosave": "on_focus_change",
   "buffer_font_family": "Geist Mono",
 
+  // Support the "Svelte in Markdown" file type
+  // https://mdsvex.pngwn.io
+  "file_types": { "Markdown": ["svx"] },
+
   // Interface settings e.g. hiding elements that aren't needed
   "terminal": { "button": false },
   "chat_panel": { "button": "never" },
